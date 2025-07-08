@@ -5,7 +5,7 @@
 // }
 // sum(5,7);
 
-//+++++++++++++++++ USE OF RETURN ++++++++++++++++++++++++++++++++
+// +++++++++++++++++ USE OF RETURN ++++++++++++++++++++++++++++++++
 // function multiplier(a,b)
 // {
 //     s = a*b;
@@ -15,3 +15,12 @@
 // // multiplier(9,6); no result as no console.log is used ..the value only return to user.
 // let vari =  multiplier(9,6);
 // console.log(vari);
+
+//REST OPERATOR USED IN CART SYSTEM
+function cartPrice(...num1)
+{
+    return num1;
+}
+console.log(cartPrice(300,200,400));
+
+//
